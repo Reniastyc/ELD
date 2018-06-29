@@ -1,0 +1,238 @@
+object LensFrame: TLensFrame
+  Size.Width = 60.000000000000000000
+  Size.Height = 700.000000000000000000
+  Size.PlatformDefault = False
+  object LenHideShow: TSpeedButton
+    Align = Bottom
+    StyledSettings = [Style, FontColor]
+    Hint = #26174#31034'/'#38544#34255#20854#20313#26694#26550
+    Position.Y = 670.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    ParentShowHint = False
+    ShowHint = True
+    Text = #164
+    TextSettings.Font.Family = #24188#22278
+    TextSettings.Font.Size = 20.000000000000000000
+  end
+  object AniTimer: TTimer
+    Enabled = False
+    Interval = 20
+    OnTimer = AniTimerTimer
+    Left = 16
+    Top = 592
+  end
+  object GroupPos: TGroupBox
+    StyledSettings = [Family, Style, FontColor, Other]
+    Size.Width = 60.000000000000000000
+    Size.Height = 150.000000000000000000
+    Size.PlatformDefault = False
+    Text = #22352#26631
+    TextSettings.Font.Size = 15.000000000000000000
+    TabOrder = 55
+    object FPX: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 50
+      Cursor = crIBeam
+      DecimalDigits = 1
+      Min = -1000.000000000000000000
+      Max = 1000.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Position.X = 5.000000000000000000
+      Position.Y = 30.000000000000000000
+      HorzIncrement = 0.000000000000000000
+      VertIncrement = 1.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+      KillFocusByReturn = True
+      OnChange = FPChange
+    end
+    object FPY: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 48
+      Cursor = crIBeam
+      DecimalDigits = 1
+      Min = -1000.000000000000000000
+      Max = 1000.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Position.X = 5.000000000000000000
+      Position.Y = 70.000000000000000000
+      HorzIncrement = 0.000000000000000000
+      VertIncrement = 1.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+      KillFocusByReturn = True
+      OnChange = FPChange
+    end
+    object FPZ: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 46
+      Cursor = crIBeam
+      DecimalDigits = 1
+      Min = -1000.000000000000000000
+      Max = 1000.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Position.X = 5.000000000000000000
+      Position.Y = 110.000000000000000000
+      HorzIncrement = 0.000000000000000000
+      VertIncrement = 1.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+      KillFocusByReturn = True
+      OnChange = FPChange
+    end
+  end
+  object GroupRot: TGroupBox
+    StyledSettings = [Family, Style, FontColor, Other]
+    Position.Y = 150.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 150.000000000000000000
+    Size.PlatformDefault = False
+    Text = #36716#35282
+    TextSettings.Font.Size = 15.000000000000000000
+    TabOrder = 54
+    object RAX: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 48
+      Cursor = crIBeam
+      DecimalDigits = 1
+      Min = -360.000000000000000000
+      Max = 360.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Position.X = 5.000000000000000000
+      Position.Y = 30.000000000000000000
+      HorzIncrement = 0.000000000000000000
+      VertIncrement = 1.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+      KillFocusByReturn = True
+      OnChange = RAChange
+    end
+    object RAY: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 47
+      Cursor = crIBeam
+      DecimalDigits = 1
+      Min = -360.000000000000000000
+      Max = 360.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Position.X = 5.000000000000000000
+      Position.Y = 70.000000000000000000
+      HorzIncrement = 0.000000000000000000
+      VertIncrement = 1.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+      KillFocusByReturn = True
+      OnChange = RAChange
+    end
+    object RAZ: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 46
+      Cursor = crIBeam
+      DecimalDigits = 1
+      Min = -360.000000000000000000
+      Max = 360.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Position.X = 5.000000000000000000
+      Position.Y = 110.000000000000000000
+      HorzIncrement = 0.000000000000000000
+      VertIncrement = 1.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+      KillFocusByReturn = True
+      OnChange = RAChange
+    end
+  end
+  object GroupSize: TGroupBox
+    StyledSettings = [Family, Style, FontColor, Other]
+    Position.Y = 400.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 150.000000000000000000
+    Size.PlatformDefault = False
+    Text = #23610#23544
+    TextSettings.Font.Size = 15.000000000000000000
+    TabOrder = 53
+    object FSX: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 48
+      Cursor = crIBeam
+      DecimalDigits = 1
+      Min = -100.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Position.X = 5.000000000000000000
+      Position.Y = 30.000000000000000000
+      HorzIncrement = 0.000000000000000000
+      VertIncrement = 1.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+      KillFocusByReturn = True
+    end
+    object FSY: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 47
+      Cursor = crIBeam
+      DecimalDigits = 1
+      Min = -100.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Position.X = 5.000000000000000000
+      Position.Y = 70.000000000000000000
+      HorzIncrement = 0.000000000000000000
+      VertIncrement = 1.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+      KillFocusByReturn = True
+    end
+    object FSZ: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 46
+      Cursor = crIBeam
+      DecimalDigits = 1
+      Min = -100.000000000000000000
+      ValueType = Float
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Position.X = 5.000000000000000000
+      Position.Y = 110.000000000000000000
+      HorzIncrement = 0.000000000000000000
+      VertIncrement = 1.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+      KillFocusByReturn = True
+    end
+  end
+end

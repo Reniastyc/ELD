@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D705E290-AA53-460A-B0A0-F9D554C615BE}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MainProject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ELT_Pack.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MainProject">
+        <MSBuild Projects="MainProject.dproj"/>
+    </Target>
+    <Target Name="MainProject:Clean">
+        <MSBuild Projects="MainProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MainProject:Make">
+        <MSBuild Projects="MainProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ELT_Pack">
+        <MSBuild Projects="ELT_Pack.dproj"/>
+    </Target>
+    <Target Name="ELT_Pack:Clean">
+        <MSBuild Projects="ELT_Pack.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ELT_Pack:Make">
+        <MSBuild Projects="ELT_Pack.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MainProject;ELT_Pack"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MainProject:Clean;ELT_Pack:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MainProject:Make;ELT_Pack:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

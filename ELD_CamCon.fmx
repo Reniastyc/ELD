@@ -1,0 +1,109 @@
+object CamConMenu: TCamConMenu
+  Size.Width = 851.000000000000000000
+  Size.Height = 30.000000000000000000
+  Size.PlatformDefault = False
+  object CConReset: TSpeedButton
+    Align = Left
+    StyledSettings = [FontColor]
+    Hint = #37325#32622#38236#22836
+    Size.Width = 30.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    ParentShowHint = False
+    ShowHint = True
+    Text = #9675
+    TextSettings.Font.Family = #24188#22278
+    TextSettings.Font.Size = 20.000000000000000000
+  end
+  object CConNew: TSpeedButton
+    Align = Left
+    StyledSettings = [FontColor]
+    Hint = #28155#21152#38236#22836
+    Position.X = 30.000000000000000000
+    Size.Width = 30.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    ParentShowHint = False
+    ShowHint = True
+    Text = #9633
+    TextSettings.Font.Family = #24188#22278
+    TextSettings.Font.Size = 20.000000000000000000
+  end
+  object CConUp: TSpeedButton
+    Align = Left
+    StyledSettings = [FontColor]
+    Hint = #19978#19968#20010#38236#22836
+    Position.X = 60.000000000000000000
+    Size.Width = 30.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    ParentShowHint = False
+    ShowHint = True
+    Text = #8593
+    TextSettings.Font.Family = #24188#22278
+    TextSettings.Font.Size = 20.000000000000000000
+  end
+  object CConDown: TSpeedButton
+    Align = Left
+    StyledSettings = [FontColor]
+    Hint = #19979#19968#20010#38236#22836
+    Position.X = 90.000000000000000000
+    Size.Width = 30.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    ParentShowHint = False
+    ShowHint = True
+    Text = #8595
+    TextSettings.Font.Family = #24188#22278
+    TextSettings.Font.Size = 20.000000000000000000
+  end
+  object CConPos: TLabel
+    Align = Client
+    StyledSettings = [Style, FontColor]
+    Size.Width = 641.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = #24188#22278
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.HorzAlign = Trailing
+    TabOrder = 4
+  end
+  object CConFirst: TSpeedButton
+    Align = Left
+    StyledSettings = [FontColor]
+    Hint = #31532#19968#20010#38236#22836
+    Position.X = 120.000000000000000000
+    Size.Width = 30.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    ParentShowHint = False
+    ShowHint = True
+    Text = '<<'
+    TextSettings.Font.Family = #24188#22278
+    TextSettings.Font.Size = 20.000000000000000000
+  end
+  object CConLast: TSpeedButton
+    Align = Left
+    StyledSettings = [FontColor]
+    Hint = #26368#21518#30340#38236#22836
+    Position.X = 150.000000000000000000
+    Size.Width = 30.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    ParentShowHint = False
+    ShowHint = True
+    Text = '>>'
+    TextSettings.Font.Family = #24188#22278
+    TextSettings.Font.Size = 20.000000000000000000
+  end
+  object CConResize: TCircle
+    Align = Right
+    Cursor = crSizeNWSE
+    Fill.Color = claNull
+    Position.X = 821.000000000000000000
+    Size.Width = 30.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+  end
+end

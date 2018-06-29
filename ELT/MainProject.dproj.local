@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="8BEB150C"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.527,=D:\MyOwn\My Projects\ELT111\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.766,D:\MyOwn\My Projects\ELT111\Unit1.pas=D:\MyOwn\My Projects\ELT111\TestForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.803,D:\MyOwn\My Projects\ELT111\ELT_ConFrame.fmx=D:\MyOwn\My Projects\ELT111\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.953,=D:\MyOwn\My Projects\ELT111\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.130,D:\MyOwn\My Projects\ELT112\ELT_PsgFrame.pas=D:\MyOwn\My Projects\ELT112\ELT_ConFrame.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.294,D:\MyOwn\My Projects\ELT\ELT_Main.pas=D:\MyOwn\My Projects\ELT\ELT.Main.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.422,=D:\MyOwn\My Projects\ELT111\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.898,=D:\MyOwn\My Projects\ELT112\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.665,D:\MyOwn\My Projects\ELT\ELT_Extra.pas=D:\MyOwn\My Projects\ELT\ELT.Extra.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.047,D:\MyOwn\My Projects\ELT111\UnitTest.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.764,D:\MyOwn\My Projects\ELT112\ELT_MngFrame.pas=D:\MyOwn\My Projects\ELT112\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.130,D:\MyOwn\My Projects\ELT112\ELT_PsgFrame.fmx=D:\MyOwn\My Projects\ELT112\ELT_ConFrame.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.062,D:\MyOwn\My Projects\ELT\ELT_Windows.pas=D:\MyOwn\My Projects\ELT\ELT.Windows.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.803,D:\MyOwn\My Projects\ELT111\ELT_ConFrame.pas=D:\MyOwn\My Projects\ELT111\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.764,D:\MyOwn\My Projects\ELT112\ELT_MngFrame.fmx=D:\MyOwn\My Projects\ELT112\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.766,D:\MyOwn\My Projects\ELT111\Unit1.fmx=D:\MyOwn\My Projects\ELT111\TestForm.fmx</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services.dex.jar"/>
+    <File Path="ELT_PsgFrame.pas"/>
+    <File Path="ELT_PsgFrame.fmx"/>
+    <File Path="ELT.Extra.pas"/>
+    <File Path="ELT.Main.pas"/>
+    <File Path="ELT_MngFrame.pas"/>
+    <File Path="ELT_MngFrame.fmx"/>
+    <File Path="ELT.Windows.pas"/>
+    <File Path="TestForm.pas"/>
+    <File Path="TestForm.fmx"/>
+  </ProjectSortOrder>
+</BorlandProject>

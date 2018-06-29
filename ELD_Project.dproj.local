@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.177,D:\MyOwn\My Projects\ELD\ELD_Form.fmx=D:\MyOwn\My Projects\ELD\FormUnit.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.177,D:\MyOwn\My Projects\ELD\ELD_Form.pas=D:\MyOwn\My Projects\ELD\FormUnit.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.488,=D:\MyOwn\My Projects\ELT\ELT_MngFrame.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.114,D:\MyOwn\My Projects\ELD\ELD_Lens.pas=D:\MyOwn\My Projects\ELD\ELD_Move.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.127,=D:\MyOwn\My Projects\ELD\ELD_Move.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.691,=D:\MyOwn\My Projects\ELT\ELT_PsgFrame.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.033,D:\MyOwn\My Projects\ELD\FormUnit.pas=D:\MyOwn\My Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.689,=D:\MyOwn\My Projects\ELD\ELD_Model.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.814,=D:\MyOwn\My Projects\ELD\ELD_Menu.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.126,=D:\MyOwn\My Projects\ELD\ELD_CamCon.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.379,=D:\MyOwn\My Projects\ELT\ELT.Main.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.394,=D:\MyOwn\My Projects\ELT\ELT.Windows.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.550,=D:\MyOwn\My Projects\ELT\ELT.Extra.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.114,D:\MyOwn\My Projects\ELD\ELD_Lens.fmx=D:\MyOwn\My Projects\ELD\ELD_Move.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.158,=D:\MyOwn\My Projects\ELD\ELD_Lattice.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.606,=D:\MyOwn\My Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.033,D:\MyOwn\My Projects\ELD\FormUnit.fmx=D:\MyOwn\My Projects\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.141,D:\MyOwn\My Projects\ELD\ELD_Project.dproj=D:\MyOwn\My Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services.dex.jar"/>
+    <File Path="..\..\My Projects"/>
+    <File Path="..\ELT"/>
+    <File Path="..\ELT\ELT.Extra.pas"/>
+    <File Path="..\ELT\ELT.Main.pas"/>
+    <File Path="..\ELT\ELT.Windows.pas"/>
+    <File Path="..\ELT\ELT_MngFrame.pas"/>
+    <File Path="..\ELT\ELT_MngFrame.fmx"/>
+    <File Path="..\ELT\ELT_PsgFrame.pas"/>
+    <File Path="..\ELT\ELT_PsgFrame.fmx"/>
+    <File Path="ELD_CamCon.pas"/>
+    <File Path="ELD_CamCon.fmx"/>
+    <File Path="ELD_Form.pas"/>
+    <File Path="ELD_Form.fmx"/>
+    <File Path="ELD_Lattice.pas"/>
+    <File Path="ELD_Lattice.fmx"/>
+    <File Path="ELD_Lens.pas"/>
+    <File Path="ELD_Lens.fmx"/>
+    <File Path="ELD_Menu.pas"/>
+    <File Path="ELD_Menu.fmx"/>
+    <File Path="ELD_Model.pas"/>
+    <File Path="ELD_Model.fmx"/>
+  </ProjectSortOrder>
+</BorlandProject>

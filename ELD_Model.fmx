@@ -1,0 +1,296 @@
+object ModelFrame: TModelFrame
+  Size.Width = 320.000000000000000000
+  Size.Height = 700.000000000000000000
+  Size.PlatformDefault = False
+  object OpenDialog: TOpenDialog
+    Left = 192
+    Top = 8
+  end
+  object GroupMat: TGroupBox
+    StyledSettings = [Family, FontColor, Other]
+    Position.X = 5.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 310.000000000000000000
+    Size.Height = 325.000000000000000000
+    Size.PlatformDefault = False
+    Text = #26448#36136
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TabOrder = 39
+    object MaterialCon: TTabControl
+      Position.X = 5.000000000000000000
+      Position.Y = 30.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 285.000000000000000000
+      Size.PlatformDefault = False
+      TabIndex = 2
+      TabOrder = 0
+      TabPosition = Bottom
+      OnChange = MaterialConChange
+      Sizes = (
+        300s
+        280s
+        300s
+        280s
+        300s
+        280s)
+      object ColorItem: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Height = 5.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = #32431#33394#26448#36136
+        ExplicitSize.cx = 68.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object MatColor: TComboColorBox
+          Color = claWhite
+          Position.X = 55.000000000000000000
+          Position.Y = 40.000000000000000000
+          Size.Width = 200.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          OnChange = MatColorChange
+        end
+      end
+      object TextureItem: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Height = 5.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = #36148#22270#26448#36136
+        ExplicitSize.cx = 68.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object MatTexure: TButton
+          Position.X = 115.000000000000000000
+          Position.Y = 60.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = #23548#20837#26448#36136
+          OnClick = MatTexureClick
+        end
+        object MatTexureClr: TButton
+          Position.X = 115.000000000000000000
+          Position.Y = 130.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #28165#31354#26448#36136
+          OnClick = MatTexureClrClick
+        end
+      end
+      object LightingItem: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Height = 5.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = #25171#20809#26448#36136
+        ExplicitSize.cx = 68.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object LigAmbient: TComboColorBox
+          Color = claWhite
+          Position.X = 80.000000000000000000
+          Position.Y = 15.000000000000000000
+          Size.Width = 200.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          OnChange = LigAmbientChange
+        end
+        object LigLAmbient: TLabel
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 60.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          Text = #29615#22659#65306
+          TabOrder = 8
+        end
+        object LigLEmissive: TLabel
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 20.000000000000000000
+          Position.Y = 100.000000000000000000
+          Size.Width = 60.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          Text = #36745#20809#65306
+          TabOrder = 7
+        end
+        object LigEmissive: TComboColorBox
+          Color = claWhite
+          Position.X = 80.000000000000000000
+          Position.Y = 95.000000000000000000
+          Size.Width = 200.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          OnChange = LigEmissiveChange
+        end
+        object LigDiffuse: TComboColorBox
+          Color = claWhite
+          Position.X = 80.000000000000000000
+          Position.Y = 55.000000000000000000
+          Size.Width = 200.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          OnChange = LigDiffuseChange
+        end
+        object LigLDiffuse: TLabel
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 20.000000000000000000
+          Position.Y = 60.000000000000000000
+          Size.Width = 60.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          Text = #28459#23556#65306
+          TabOrder = 10
+        end
+        object LigLSpecular: TLabel
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 20.000000000000000000
+          Position.Y = 140.000000000000000000
+          Size.Width = 60.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          Text = #39640#20809#65306
+          TabOrder = 6
+        end
+        object LigSpecular: TComboColorBox
+          Color = claWhite
+          Position.X = 80.000000000000000000
+          Position.Y = 135.000000000000000000
+          Size.Width = 200.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          OnChange = LigSpecularChange
+        end
+        object LigShininess: TNumberBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 11
+          Cursor = crIBeam
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.HorzAlign = Center
+          Position.X = 80.000000000000000000
+          Position.Y = 175.000000000000000000
+          Size.Width = 200.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Style, FontColor]
+          KillFocusByReturn = True
+          OnChange = LigShininessChange
+        end
+        object LigLShininess: TLabel
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 20.000000000000000000
+          Position.Y = 180.000000000000000000
+          Size.Width = 60.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          Text = #20142#24230#65306
+          TabOrder = 5
+        end
+        object LigTexture: TButton
+          Position.X = 60.000000000000000000
+          Position.Y = 220.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = #23548#20837#26448#36136
+          OnClick = LigTextureClick
+        end
+        object LigTextureClr: TButton
+          Position.X = 170.000000000000000000
+          Position.Y = 220.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #28165#31354#26448#36136
+          OnClick = LigTextureClrClick
+        end
+      end
+    end
+  end
+  object GroupMesh: TGroupBox
+    StyledSettings = [Family, FontColor, Other]
+    Position.X = 10.000000000000000000
+    Position.Y = 35.000000000000000000
+    Size.Width = 310.000000000000000000
+    Size.Height = 285.000000000000000000
+    Size.PlatformDefault = False
+    Text = #32452#20214
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TabOrder = 38
+    object MeshList: TListBox
+      Position.X = 5.000000000000000000
+      Position.Y = 55.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 220.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      OnChange = MeshListChange
+      Viewport.Width = 300.000000000000000000
+      Viewport.Height = 220.000000000000000000
+    end
+    object IsDeleted: TCheckBox
+      Position.X = 20.000000000000000000
+      Position.Y = 30.000000000000000000
+      TabOrder = 45
+      Text = #23436#25104#21518#21024#38500
+    end
+  end
+  object BtnLoad: TButton
+    CanFocus = False
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 10.000000000000000000
+    Position.Y = 5.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = #25171#24320
+    TextSettings.Font.Size = 14.000000000000000000
+    OnClick = BtnLoadClick
+  end
+  object BtnDone: TButton
+    CanFocus = False
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 250.000000000000000000
+    Position.Y = 5.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = #23436#25104
+    TextSettings.Font.Size = 14.000000000000000000
+  end
+end

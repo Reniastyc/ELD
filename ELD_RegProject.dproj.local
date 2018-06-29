@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.492,=D:\MyOwn\My Projects\ELD\ELD.ico</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.656,=D:\MyOwn\My Projects\ELD\ELDFileIcon.rc</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.028,D:\MyOwn\My Projects\ELD\ELD.ico=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.036,=D:\MyOwn\My Projects\ELD\ELD.ico</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.476,D:\MyOwn\My Projects\ELD\ELD_RegProject.dproj=D:\MyOwn\My Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.181,D:\MyOwn\My Projects\ELD\ELD_RegProject.dproj=D:\MyOwn\My Projects\ELD\ELD.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.778,D:\MyOwn\My Projects\ELD\ELDFileIcon.rc=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.638,D:\MyOwn\My Projects\ELD\ELD_Register.pas=D:\MyOwn\My Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.086,D:\MyOwn\My Projects\ELD\ELD.ico=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.030,=D:\MyOwn\My Projects\ELD\ELD_File.ico</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.391,=D:\MyOwn\My Projects\ELD\ELD_File.ico</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.638,D:\MyOwn\My Projects\ELD\ELD_Register.dfm=D:\MyOwn\My Projects\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.194,=D:\MyOwn\My Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.043,D:\MyOwn\My Projects\ELD\ELD_File.ico=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.196,D:\MyOwn\My Projects\ELD\ELD.dproj=D:\MyOwn\My Projects\ELD\ELD_RegProject.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.808,=D:\MyOwn\My Projects\ELD\ELD_File.ico</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.849,D:\MyOwn\My Projects\ELD\ELD_File.ico=</Transaction>
+  </Transactions>
+</BorlandProject>

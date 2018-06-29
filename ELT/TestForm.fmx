@@ -1,0 +1,131 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'TestForm'
+  ClientHeight = 678
+  ClientWidth = 1080
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnCloseQuery = FormCloseQuery
+  OnResize = FormResize
+  DesignerMasterStyle = 0
+  object FormBack: TScrollBox
+    Align = Client
+    Size.Width = 710.000000000000000000
+    Size.Height = 678.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Viewport.Width = 710.000000000000000000
+    Viewport.Height = 678.000000000000000000
+    object AManager: TUIManager
+      BackgroundColor = claWhitesmoke
+      OnCreatePass = AManagerCreatePass
+      SidesColor = claNull
+      Align = Client
+      Cursor = crDefault
+      Fill.Color = claWhitesmoke
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 700.000000000000000000
+      Size.Height = 668.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = AManagerClick
+    end
+  end
+  object ConBack: TPanel
+    Align = Right
+    Position.X = 710.000000000000000000
+    Size.Width = 370.000000000000000000
+    Size.Height = 678.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    inline MngrCon: TMngFrame
+      Size.Width = 370.000000000000000000
+      Size.Height = 700.000000000000000000
+      Size.PlatformDefault = False
+      inherited BackGround: TScrollBox
+        Padding.Top = 10.000000000000000000
+        Padding.Bottom = 10.000000000000000000
+        Size.Width = 370.000000000000000000
+        Viewport.Width = 370.000000000000000000
+        Viewport.Height = 700.000000000000000000
+        inherited BtnLoad: TButton
+          OnClick = MngrConBtnLoadClick
+        end
+        inherited OpenDialog: TOpenDialog
+          Left = 360
+        end
+        inherited SaveDialog: TSaveDialog
+          Left = 408
+        end
+        inherited BackColor: TColorPanel
+          TabOrder = 31
+        end
+        inherited SwShowBack: TSwitch
+          TabOrder = 34
+        end
+        inherited Label15: TLabel
+          TabOrder = 35
+        end
+        inherited Label16: TLabel
+          TabOrder = 36
+        end
+        inherited SwShowImag: TSwitch
+          TabOrder = 32
+        end
+        inherited GroupList: TGroupBox
+          TabOrder = 30
+          inherited CamList: TListBox
+            Viewport.Width = 290.000000000000000000
+            Viewport.Height = 300.000000000000000000
+          end
+        end
+        inherited Label2: TLabel
+          TabOrder = 38
+        end
+        inherited SwShowSides: TSwitch
+          TabOrder = 37
+          OnClick = nil
+        end
+        inherited SidesColor: TColorPanel
+          TabOrder = 33
+        end
+      end
+    end
+    inline PassCon: TPsgFrame
+      Position.X = 100.000000000000000000
+      Size.Width = 370.000000000000000000
+      Size.Height = 700.000000000000000000
+      Size.PlatformDefault = False
+      inherited BackGround: TScrollBox
+        Size.Width = 370.000000000000000000
+        Viewport.Width = 370.000000000000000000
+        Viewport.Height = 700.000000000000000000
+        inherited GroupCon: TGroupBox
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited GroupChar: TGroupBox
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited GroupPara: TGroupBox
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited GroupImag: TGroupBox
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited GroupFind: TGroupBox
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          inherited PosList: TListBox
+            Viewport.Width = 290.000000000000000000
+            Viewport.Height = 220.000000000000000000
+          end
+        end
+      end
+    end
+  end
+end

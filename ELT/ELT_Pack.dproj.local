@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.668,D:\MyOwn\My Projects\ELT\ELT.Extra.pas=D:\MyOwn\My Projects\ELT\ELT_Extra.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.296,D:\MyOwn\My Projects\ELT\ELT.Main.pas=D:\MyOwn\My Projects\ELT\ELT_Main.pas</Transaction>
+  </Transactions>
+</BorlandProject>
